@@ -1,0 +1,208 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "E:/playwright/framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "E:/playwright/framework/src/spec",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "E:\\playwright\\framework\\playwright.config.js",
+    "rootDir": "E:/playwright/framework/src/spec",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.30.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "spec.js",
+      "file": "spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test the Buzz Page Details",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 93716,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login Page, Before Each test Blocks\n"
+                    },
+                    {
+                      "text": "After all the tests\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-02-14T13:14:59.698Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\playwright\\framework\\test-results\\spec.js-Test-the-Buzz-Page-Details-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "91001e7e23edb61ddf89-4da02ca39e3f45b52ec8",
+          "file": "spec.js",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "Test on Juliemr calculator",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 62887,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Before all test Blocks\n"
+                    },
+                    {
+                      "text": "Login Page, Before Each test Blocks\n"
+                    },
+                    {
+                      "text": "After all the tests\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-02-14T13:13:34.476Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\playwright\\framework\\test-results\\spec.js-Test-on-Juliemr-calculator-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "91001e7e23edb61ddf89-85104cd78e4d5fd5663e",
+          "file": "spec.js",
+          "line": 53,
+          "column": 3
+        }
+      ],
+      "suites": [
+        {
+          "title": "only focused group",
+          "file": "spec.js",
+          "line": 28,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test the Admin Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 81807,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before all test Blocks\n"
+                        },
+                        {
+                          "text": "Login Page, Before Each test Blocks\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-02-14T13:13:34.481Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\playwright\\framework\\test-results\\spec.js-only-focused-group-Test-the-Admin-Page-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91001e7e23edb61ddf89-a1f836021efc36a82e40",
+              "file": "spec.js",
+              "line": 29,
+              "column": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

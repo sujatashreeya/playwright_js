@@ -1,0 +1,32 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="199.89110099999607">
+<testsuite name="spec.js" timestamp="1676380097054" hostname="" tests="3" failures="0" skipped="0" time="264.094" errors="0">
+<testcase name="only focused group Test the Admin Page" classname="[chromium] › spec.js › only focused group › Test the Admin Page" time="92.616">
+<system-out>
+<![CDATA[Before all test Blocks
+Login Page, Before Each test Blocks
+
+[[ATTACHMENT|..\..\test-results\spec.js-only-focused-group-Test-the-Admin-Page-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test the Buzz Page Details" classname="[chromium] › spec.js › Test the Buzz Page Details" time="94.611">
+<system-out>
+<![CDATA[Login Page, Before Each test Blocks
+After all the tests
+
+[[ATTACHMENT|..\..\test-results\spec.js-Test-the-Buzz-Page-Details-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test on Juliemr calculator" classname="[chromium] › spec.js › Test on Juliemr calculator" time="76.867">
+<system-out>
+<![CDATA[Before all test Blocks
+Login Page, Before Each test Blocks
+After all the tests
+
+[[ATTACHMENT|..\..\test-results\spec.js-Test-on-Juliemr-calculator-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
